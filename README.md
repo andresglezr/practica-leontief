@@ -1,0 +1,30 @@
+# Práctica: el modelo input-output de Leontief
+
+Hoja de Excel para la práctica de la clase de máster sobre el modelo input-output de Leontief.
+
+## El archivo
+
+`leontief_practica.xlsx` tiene una economía de juguete con tres sectores (Primario, Industria y Servicios). Los datos son inventados con fines docentes.
+
+- En azul, los datos de la tabla (se pueden cambiar).
+- En amarillo, las celdas que hay que calcular.
+
+## Qué hay que calcular
+
+| Paso | Qué | Dónde | Pista |
+|---|---|---|---|
+| 1 | Matriz de coeficientes técnicos, A | B11:D13 | `=B3/B$7` y arrastrar |
+| 2 | Matriz identidad, I | F11:H13 | `=M.UNIDAD(3)` |
+| 3 | I − A | B16:D18 | restar las dos matrices |
+| 4 | Inversa de Leontief, L = (I − A)⁻¹ | F16:H18 | `=MINVERSA(B16:D18)` |
+| 5 | Multiplicadores de producción | F19:H19 | `=SUMA(F16:F18)` y arrastrar |
+| 6 | Impacto de un shock, Δx = L·Δf | C22:C24 | `=MMULT(F16:H18;B22:B24)` |
+| 7 | Comprobación | G22:I24 | `=MMULT(F16:H18;B16:D18)` debe dar la identidad |
+
+Ejemplo de shock: 0, 100 y 0 en B22:B24 (+100 M€ de demanda final en la Industria).
+
+Las columnas de empleo (D22:E25) son opcionales y corresponden al anexo de la clase.
+
+## Funciones
+
+Excel en español, con los argumentos separados por punto y coma. Equivalencias en inglés: SUMA = SUM, M.UNIDAD = MUNIT, MINVERSA = MINVERSE, MMULT = MMULT.
