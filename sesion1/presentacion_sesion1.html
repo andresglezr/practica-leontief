@@ -2018,7 +2018,7 @@ function go(n) {
   slides[cur].classList.remove('active'); cur = n; slides[cur].classList.add('active');
   const s = slides[cur];
   $('#stage').classList.toggle('dark', s.classList.contains('cover') || s.classList.contains('sep'));
-  history.replaceState(null, '', '#' + (cur + 1));
+  try { history.replaceState(null, '', '#' + (cur + 1)); } catch (e) { /* vista previa en iframe: sin historial */ }
   hideTip();
 }
 function toggleMenu(force) { const m = $('#menu'); m.classList.toggle('open', force !== undefined ? force : !m.classList.contains('open')); }
