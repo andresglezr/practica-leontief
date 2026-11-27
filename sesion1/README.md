@@ -27,12 +27,15 @@ Apuntes y hoja de Excel de la clase de máster sobre el modelo input-output de L
 | 4 | Inversa de Leontief, L = (I − A)⁻¹ | F16:H18 | `=MINVERSA(B16:D18)` |
 | 5 | Multiplicadores de producción | F19:H19 | `=SUMA(F16:F18)` y arrastrar |
 | 6 | Impacto de un shock, Δx = L·Δf | C22:C24 | `=MMULT(F16:H18;B22:B24)` |
-| 7 | Comprobación | G22:I24 | `=MMULT(F16:H18;B16:D18)` debe dar la identidad |
+| 7 | Empleos por M€ producido | D22:D24 | `=B8/B7`, `=C8/C7`, `=D8/D7` |
+| 8 | Empleo del shock | E22:E25 | `=D22*C22`, arrastrar y sumar |
+| 9 | Multiplicadores de empleo | F20:H20 | `=SUMAPRODUCTO($D$22:$D$24;F16:F18)` y arrastrar |
+| 10 | Comprobación | G22:I24 | `=MMULT(F16:H18;B16:D18)` debe dar la identidad |
 
 Ejemplo de shock: 0, 100 y 0 en B22:B24 (+100 M€ de demanda final en la Industria).
 
-Las columnas de empleo (D22:E25) son opcionales y corresponden al anexo de la clase.
+Con ese shock salen unos 1.791 empleos y multiplicadores de empleo de 21,8, 17,9 y 21,5.
 
 ## Funciones
 
-Excel en español, con los argumentos separados por punto y coma. Equivalencias en inglés: SUMA = SUM, M.UNIDAD = MUNIT, MINVERSA = MINVERSE, MMULT = MMULT.
+Excel en español, con los argumentos separados por punto y coma. Equivalencias en inglés: SUMA = SUM, M.UNIDAD = MUNIT, MINVERSA = MINVERSE, MMULT = MMULT, SUMAPRODUCTO = SUMPRODUCT.
