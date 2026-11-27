@@ -2,13 +2,17 @@
 
 Apuntes y hoja de Excel de la clase de máster sobre el modelo input-output de Leontief.
 
+## Presentación
+
+[`presentacion_sesion1.html`](presentacion_sesion1.html) es la presentación de la clase. GitHub no la muestra: descárgala (botón *Download raw file*) y ábrela en el navegador. Funciona sin conexión y lleva dentro la hoja de Excel interactiva de la práctica.
+
 ## Apuntes
 
 [`apuntes_sesion1.pdf`](apuntes_sesion1.pdf) sigue los capítulos 1 y 2 de Miller y Blair (2022), *Input-Output Analysis: Foundations and Extensions*, con la economía de juguete de la práctica: la tabla, los coeficientes, la inversa de Leontief, los multiplicadores, el modelo cerrado, el modelo de precios y ejercicios resueltos.
 
-## El archivo
+## La práctica en Excel
 
-`leontief_practica.xlsx` tiene una economía de juguete con tres sectores (Primario, Industria y Servicios). Los datos son inventados con fines docentes.
+`leontief_practica.xlsx` es el ejercicio y [`leontief_practica_resuelta.xlsx`](leontief_practica_resuelta.xlsx) la solución, con todas las fórmulas. `leontief_practica.xlsx` tiene una economía de juguete con tres sectores (Primario, Industria y Servicios). Los datos son inventados con fines docentes.
 
 - En azul, los datos de la tabla (se pueden cambiar).
 - En amarillo, las celdas que hay que calcular.
