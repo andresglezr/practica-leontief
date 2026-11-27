@@ -1,6 +1,10 @@
 # Sesión 1 · El modelo input-output de Leontief
 
-Hoja de Excel para la práctica de la clase de máster sobre el modelo input-output de Leontief.
+Apuntes y hoja de Excel de la clase de máster sobre el modelo input-output de Leontief.
+
+## Apuntes
+
+[`apuntes_sesion1.pdf`](apuntes_sesion1.pdf) sigue los capítulos 1 y 2 de Miller y Blair (2022), *Input-Output Analysis: Foundations and Extensions*, con la economía de juguete de la práctica: la tabla, los coeficientes, la inversa de Leontief, los multiplicadores, el modelo cerrado, el modelo de precios y ejercicios resueltos.
 
 ## El archivo
 
