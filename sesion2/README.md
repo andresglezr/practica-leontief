@@ -5,6 +5,7 @@ Una región abierta: la tabla input-output de España del INE, con importaciones
 ## Archivos
 
 - [`apuntes_sesion2.pdf`](apuntes_sesion2.pdf): apuntes de la sesión. La región abierta (Aᵈ y Lᵈ), la tabla del INE y tres aplicaciones: un estudio de impacto, la paradoja de Leontief y el empleo ligado a las exportaciones. Con ejercicios resueltos.
+- [`enunciados_sesion2.pdf`](enunciados_sesion2.pdf): enunciados de los tres ejercicios con la tabla del INE de 2022. Un estudio de impacto del Xacobeo, la paradoja de Leontief en España y el empleo ligado a las exportaciones.
 
 ### Próximamente
 
